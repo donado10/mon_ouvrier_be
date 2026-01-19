@@ -1,0 +1,38 @@
+{
+	"name": "mon_ouvrier_be",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@turf/turf": "^7.3.1",
+		"@types/body-parser": "^1.19.6",
+		"@types/compression": "^1.8.1",
+		"@types/cookie-parser": "^1.4.10",
+		"@types/cors": "^2.8.19",
+		"@types/express": "^5.0.6",
+		"@types/lodash": "^4.17.21",
+		"@types/mongoose": "^5.11.97",
+		"nodemon": "^3.1.11",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"appwrite": "^21.5.0",
+		"body-parser": "^2.2.1",
+		"compression": "^1.8.1",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.5",
+		"express": "^5.2.1",
+		"loadash": "^1.0.0",
+		"lodash": "^4.17.21",
+		"mongoose": "^7.4.4"
+	}
+}
